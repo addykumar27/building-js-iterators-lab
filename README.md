@@ -40,7 +40,7 @@ You should be able to answer most of these questions based on the documentation 
 
 ### Training Tasks
 
-1. Create a function `myFind` which implements `Array.prototype.find`. `myFind` takes in an array and a callback function. `myEach` should iterate through all elements in the array and call the callback function with these parameters: the current element, the current index, and the array itself. If the callback returns `true` for an element, `myFind` should immediately return the value of the element. If the callback never returns true for an element, `myFind` should return `undefined`. See [`find`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find). Work in `starter-code/myFind.js`
+1. Create a function `myFind` which implements `Array.prototype.find`. `myFind` takes in an array and a callback function. `myFind` should iterate through all elements in the array and call the callback function with these parameters: the current element, the current index, and the array itself. If the callback returns `true` for an element, `myFind` should immediately return the value of the element. If the callback never returns true for an element, `myFind` should return `undefined`. See [`find`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find). Work in `starter-code/myFind.js`
 
   ```js
   function myFind (array, callback) {
@@ -50,7 +50,7 @@ You should be able to answer most of these questions based on the documentation 
   ```
 
   <details><summary>click for example...</summary>
-  Example Inputs:
+  Example inputs that your `myFind` function could take:
   ```js
   var words = ['air', 'tree', 'sunshine', 'trail', 'fire'];
   function isLong(element, index, arr){
@@ -58,7 +58,7 @@ You should be able to answer most of these questions based on the documentation 
   }
   ```
 
-  Example Use:
+  Example of calling your `myFind` function on the inputs above:
   ```js
   myFind(words, isLong);
   // returns "sunshine"
