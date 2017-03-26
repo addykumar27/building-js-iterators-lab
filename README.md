@@ -51,6 +51,7 @@ You should be able to answer most of these questions based on the documentation 
 
   <details><summary>click for example...</summary>
   Example inputs that your `myFind` function could take:
+  
   ```js
   var words = ['air', 'tree', 'sunshine', 'trail', 'fire'];
   function isLong(element, index, arr){
@@ -81,6 +82,7 @@ You should be able to answer most of these questions based on the documentation 
 
   <details><summary>click for example...</summary>
   Example Inputs:
+  
   ```js
   var words = ['apple', 'banana', 'cherry'];
   function logAsList(element, index, arr){
@@ -113,6 +115,7 @@ You should be able to answer most of these questions based on the documentation 
 
   <details><summary>click for example...</summary>
   Example Inputs:
+  
   ```js
   var numbers = [1, 4, 9];
   function timesTwo(element, index, arr){
@@ -134,7 +137,7 @@ You should be able to answer most of these questions based on the documentation 
 
 4. Create a function `myFilter` which implements `Array.prototype.filter`. `myFilter` takes in an array and a callback function. The callback function will have the following parameters: the current element, the current index, and the array itself. The callback function will return `true` or `false`. `myFilter` should return a new array containing all the elements for which the callback function returned `true`. See [`filter`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter). Work in `starter-code/myFilter.js`.
 
-    ```js
+  ```js
   function myFilter (array, callback) {
     // your code here!
     // myFilter should duplicate the behavior of filter
@@ -143,6 +146,7 @@ You should be able to answer most of these questions based on the documentation 
 
   <details><summary>click for example...</summary>
   Example Inputs:
+  
   ```js
   var numbers = [1, 4, 9, 16];
   function isEven(element, index, arr){
@@ -173,6 +177,7 @@ You should be able to answer most of these questions based on the documentation 
 
   <details><summary>click for example...</summary>
   Example Inputs:
+  
   ```js
   var numbers = [1, 4, 9];
   function addUp(previous, element, index, arr){
