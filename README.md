@@ -332,7 +332,3 @@ This is a little unclear, but at least it tells us exactly what part of the file
 
 <details><summary>click for explanation</summary>At line 37 in the test file, there was an expectation that an array would have the elements `['a', 'b', 'c', 'd']`.  Instead, it got an empty array!</details>
 
-
-### Deliverables
-
-When you're finished for the day, edit this README to include your name, a link to the original repository, and a 3-5 sentence reflection on completing this training **at the top of the readme**. Push your updates to GitHub!
