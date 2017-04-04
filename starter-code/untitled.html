@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+var artistSearchFrom = document.querySelector("#artist-search-form");
+artistSearchFrom.addEventListener("submit", function(event) {
+  event.preventDefault();
+  var artist = this.querySelector("#query").value;
+  var type = this.querySelector("#type").value;
+  var formData = $(this).serialize();
+  console.log(artist, "is a", type);
+});
+
+</form>
+</body>
+</html>
